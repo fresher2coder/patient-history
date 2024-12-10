@@ -78,7 +78,7 @@ const Strong = styled.strong`
   color: #333;
 `;
 
-const API_URL = "http://localhost:5000/patients";
+const API_URL = "https://patient-history-server.onrender.com/patients";
 
 const PatientHistory = () => {
   const [patients, setPatients] = useState([]);
